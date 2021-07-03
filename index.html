@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hafta 2 Gun 2</title>
+    <style>
+        .bold {
+            font-weight: bold;
+        }
+
+        body {
+            text-align: center;
+        }
+
+        ul {margin-top: 50px;
+            list-style-type: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <button onclick="fetchData()">Fetch</button>
+        <!--Todo-->
+        <button onclick="filterData()" id="filterButton" style="display: none;">Filter</button>
+        <input type="checkbox" id="ageInput" name="ageinput" value="age">
+        <label for="ageinput"> Age </label>
+        <input type="checkbox" id="isactiveInput" name="vehicle1" value="isactive">
+        <label for="isactive"> isActive </label>
+        <input type="text" id="firstletterInput" name="firstletter" placeholder="First Letter" maxlength="1">
+
+        <ul class="list">
+
+        </ul>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
